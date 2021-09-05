@@ -20,7 +20,7 @@ public class Main {
 	
 	//Display HR Department details
 	static void displayHR(HRDepartment hrObj) {
-		System.out.println(" Welcome to "+hrObj.departmentName());
+		System.out.println(" Welcome to"+hrObj.departmentName());
 		System.out.println(hrObj.doActivity());
 		System.out.println(hrObj.getTodaysWork());
 		System.out.println(hrObj.getWorkDeadline());
@@ -29,7 +29,7 @@ public class Main {
 	
 	//Display Tech Department details
 	static void displayTech(TechDepartment techObj) {
-		System.out.println(" Welcome to "+techObj.departmentName());
+		System.out.println(" Welcome to"+techObj.departmentName());
 		System.out.println(techObj.getTodaysWork());
 		System.out.println(techObj.getWorkDeadline());
 		System.out.println(techObj.getTechStackInformation());
